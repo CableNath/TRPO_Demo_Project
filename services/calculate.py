@@ -3,6 +3,7 @@ from .some_func import *
 def calculate_average(numbers):
     if len(numbers) == 0:
         return None
+        
     complex_function(1,2,3)
     return sum(numbers) / len(numbers)
 
