@@ -1,6 +1,10 @@
 
 import pytest
-from main import *
+from services.calculate import *
+from services.factorial import *
+from services.is_palindrome import *
+from services.priority import *
+from services.reverse import *
 
 # Тесты для функции factorial(n)
 def test_factorial():
