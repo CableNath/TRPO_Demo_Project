@@ -2,7 +2,7 @@
 import pytest
 from services.calculate import *
 from services.factorial import *
-from services.is_palindrome import *
+from services.palindrome import *
 from services.priority import *
 from services.reverse import *
 

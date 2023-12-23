@@ -1,7 +1,10 @@
 {
     "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\test_my.py": [
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\reverse.py",
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\calculate.py",
         "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\test_my.py",
-        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\main.py",
-        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\calculate.py"
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\priority.py",
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\factorial.py",
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\palindrome.py"
     ]
 }
