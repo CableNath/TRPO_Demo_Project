@@ -1,5 +1,6 @@
 
 import pytest
+from main import *
 
 # Тесты для функции factorial(n)
 def test_factorial():
