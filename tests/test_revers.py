@@ -1,4 +1,4 @@
-from .services.reverse import *
+from services.reverse import *
 
 # Тесты для функции reverse_string(s)
 def test_reverse_string():

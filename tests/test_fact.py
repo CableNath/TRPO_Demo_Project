@@ -1,4 +1,4 @@
-from .services.factorial import *
+from services.factorial import *
 
 # Тесты для функции factorial(n)
 def test_factorial():

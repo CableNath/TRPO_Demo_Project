@@ -1,4 +1,4 @@
-from .services.priority import *
+from services.priority import *
 
 # Тесты для функции is_prime(n)
 def test_is_prime():

@@ -1,4 +1,4 @@
-from .services.is_palindrome import *
+from services.is_palindrome import *
 # Тесты для функции is_palindrome(s)
 def test_is_palindrome():
     assert is_palindrome("radar") == True
