@@ -1,4 +1,8 @@
 {
+    "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_backpack.py": [
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_backpack.py",
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\solution_backpack.py"
+    ],
     "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_cal.py": [
         "C:\\Users\\Dimam\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pytest\\assertion\\util.py",
         "C:\\Users\\Dimam\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\_pytest\\assertion\\rewrite.py",
@@ -20,5 +24,9 @@
     "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_revers.py": [
         "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\reverse.py",
         "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_revers.py"
+    ],
+    "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_solution_salesmen.py": [
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\tests\\test_solution_salesmen.py",
+        "C:\\Pocket\\UniversiteProject\\Curse4Sem7\\TRPO\\8Lab\\services\\solution_salesmen.py"
     ]
 }
