@@ -25,10 +25,10 @@ def tsp_bellman_held_karp(graph):
     final_subset = (1 << num_cities) - 1
     min_length = float('inf')
     last_city = -1
-    for u in range(1, num_cities):
-        if min_length > dp[final_subset][u] + graph[u][0]:
-            min_length = dp[final_subset][u] + graph[u][0]
-            last_city = u
+    # for u in range(1, num_cities):
+    #     if min_length > dp[final_subset][u] + graph[u][0]:
+    #         min_length = dp[final_subset][u] + graph[u][0]
+    #         last_city = u
 
     # Восстанавливаем маршрут, начиная с последнего города.
     tour = []
