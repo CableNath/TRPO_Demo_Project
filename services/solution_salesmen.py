@@ -24,20 +24,20 @@ def tsp_bellman_held_karp(graph):
     # Находим минимальный цикл, возвращаясь в город 0.
     final_subset = (1 << num_cities) - 1
     min_length = float('inf')
-    last_city = -1
-    for u in range(1, num_cities):
-        if min_length > dp[final_subset][u] + graph[u][0]:
-            min_length = dp[final_subset][u] + graph[u][0]
-            last_city = u
+    # last_city = -1
+    # for u in range(1, num_cities):
+    #     if min_length > dp[final_subset][u] + graph[u][0]:
+    #         min_length = dp[final_subset][u] + graph[u][0]
+    #         last_city = u
 
     # Восстанавливаем маршрут, начиная с последнего города.
     tour = []
     subset = final_subset
-    while last_city != -1:
-        tour.append(last_city)
-        new_last_city = parent[subset][last_city]
-        subset ^= (1 << last_city)
-        last_city = new_last_city
-    tour.append(0)  # Завершаем маршрут, возвращаясь в город 0.
+    # while last_city != -1:
+    #     tour.append(last_city)
+    #     new_last_city = parent[subset][last_city]
+    #     subset ^= (1 << last_city)
+    #     last_city = new_last_city
+    # tour.append(0)  # Завершаем маршрут, возвращаясь в город 0.
 
     return min_length, tour
