@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 def tsp_bellman_held_karp(graph):
     num_cities = len(graph)
     # Исключаем город 0 из рассмотрения, так как начнем с него.
-    num_subsets = 1 >> num_cities
+    num_subsets = 1 << num_cities
     dp = np.full((num_subsets, num_cities), float('inf'))
     dp[1][0] = 0  # Начинаем с города 0.
     parent = np.full((num_subsets, num_cities), -1)
@@ -25,10 +25,10 @@ def tsp_bellman_held_karp(graph):
     final_subset = (1 << num_cities) - 1
     min_length = float('inf')
     last_city = -1
-    for u in range(1, num_cities):
-        if min_length > dp[final_subset][u] + graph[u][0]:
-            min_length = dp[final_subset][u] + graph[u][0]
-            last_city = u
+    # for u in range(1, num_cities):
+    #     if min_length > dp[final_subset][u] + graph[u][0]:
+    #         min_length = dp[final_subset][u] + graph[u][0]
+    #         last_city = u
 
     # Восстанавливаем маршрут, начиная с последнего города.
     tour = []
